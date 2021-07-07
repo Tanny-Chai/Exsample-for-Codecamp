@@ -1,0 +1,44 @@
+let r = 15
+undefined
+const PI = 3.14
+undefined
+let area = PI*r*r
+undefined
+area
+706.5
+let cc-5 = "Codecamp5"
+VM227:1 Uncaught SyntaxError: Unexpected token '-'
+let cc_5 = "Codecamp5"
+undefined
+cc_5
+"Codecamp5"
+let 5cc = "Codecamp5"
+VM354:1 Uncaught SyntaxError: Invalid or unexpected token
+r = 33
+33
+r
+33
+// ภายใน console แม้ไม่กำหนดว่า let มันก็จะใส่มาให้แบบอัตโนมัติ
+undefined
+_ = "UnderScore..." //กำหนดตัวแปรใช้ _ ได้ แต่ห้ามใช้ -
+"UnderScore..."
+_
+"UnderScore..."
+_ = 15.6
+15.6
+_
+15.6
+$ = 555 //สามารถใชสัญลักษณ์เป็น $ ได้เพียงตัวเองเท่านั้น
+555
+$
+555
+5Codecamp = 123 //แทรกด้วยตัวเลขได้ แต่ห้ามขึ้นต้นด้วยตัวเลช
+VM1129:1 Uncaught SyntaxError: Invalid or unexpected token
+Codecamp#5 = 456 //ใช้ได้แค่ $ เท่านั้น
+VM1246:1 Uncaught SyntaxError: Invalid or unexpected token
+let code camp = 15 //ห้ามเว้นวรรค
+VM1326:1 Uncaught SyntaxError: Unexpected identifier
+โค้ดแคมป์ = 789 //ใช้ภาษาไทยหรือภาษาอื่นๆได้
+789
+โค้ดแคมป์
+789

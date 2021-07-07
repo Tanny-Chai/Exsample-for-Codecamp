@@ -1,0 +1,15 @@
+let s4 = `Codecamp
+Thailand
+
+BKK
+is so cool...`
+undefined
+s4
+"Codecamp\nThailand\n\nBKK\nis so cool..."
+s4
+"Codecamp\nThailand\n\nBKK\nis so cool..."
+let s5 = "Codecamp
+Thailand"
+VM469:1 Uncaught SyntaxError: Invalid or unexpected token
+alert(s4)
+undefined

@@ -1,0 +1,11 @@
+function User(name){
+    this.name = name;
+    return "Google"
+}
+undefined
+let user = new User("Yahoo")
+undefined
+//เพราะ return ต้องเป็น object เราใส่ string มันจึง ignore
+undefined
+user
+User {name: "Yahoo"}

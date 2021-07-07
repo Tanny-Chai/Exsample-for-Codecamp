@@ -1,0 +1,18 @@
+function sayHello(){
+    console.log("Hello")
+}
+undefined
+let user = {
+    name: "Pat",
+    age: 31
+}
+undefined
+user.sayHi = sayHello
+ƒ sayHello(){
+    console.log("Hello")
+}
+user.sayHi()
+VM943:2 Hello
+undefined
+// ทำให้ sayHi() กลายเป็น sayHello() ได้
+undefined

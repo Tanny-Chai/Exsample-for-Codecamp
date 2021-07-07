@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>คำนวณเกรด</title>
+</head>
+<body>
+    <script>
+        let score = prompt('Key your score');
+        let grade
+        
+        if (score >= 80) {
+            grade = "A";
+            alert("Grade " + grade);
+            console.log("You get grade " + grade);
+        }
+
+        else if (score >= 70 && score <= 79) {
+            grade = "B";
+            alert("Grade " + grade);
+            console.log("You get grade " + grade);
+        }
+
+        else if (score >= 60 && score <= 69) {
+            grade = "C";
+            alert("Grade " + grade);
+            console.log("You get grade " + grade);
+        }
+
+        else if (score >= 50 && score <= 59) {
+            grade = "D";
+            alert("Grade " + grade);
+            console.log("You get grade " + grade);
+        }
+
+        else if (score <= 49) {
+            grade = "F";
+            alert("Grade " + grade);
+            console.log("You get grade " + grade);
+        }
+
+    </script>
+</body>
+</html>

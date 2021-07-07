@@ -1,0 +1,22 @@
+let ss = "Codecamp Thailand"
+undefined
+for(let i=0; i<ss.length; i++)
+    console.log(ss.charAt(i))
+VM3004:2 C
+VM3004:2 o
+VM3004:2 d
+VM3004:2 e
+VM3004:2 c
+VM3004:2 a
+VM3004:2 m
+VM3004:2 p
+VM3004:2  
+VM3004:2 T
+VM3004:2 h
+VM3004:2 a
+VM3004:2 i
+VM3004:2 l
+VM3004:2 a
+VM3004:2 n
+VM3004:2 d
+undefined

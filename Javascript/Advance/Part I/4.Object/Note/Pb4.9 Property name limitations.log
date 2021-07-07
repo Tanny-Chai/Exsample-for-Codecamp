@@ -1,0 +1,16 @@
+let obj = {
+    function: "2"
+};
+undefined
+
+obj
+{function: "2"}
+let function = 2;
+VM790:1 Uncaught SyntaxError: Unexpected token 'function'
+
+let obj = {
+    2: "two"
+};
+undefined
+obj
+{2: "two"}2: "two"__proto__: Object

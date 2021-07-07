@@ -1,0 +1,9 @@
+let user = {
+    name: "Pat"
+};
+undefined
+user = null
+null
+user
+null
+// Garbage Collection จะลบอัตโนมัติเพื่อไม่ให้เปลืองหน่วยความจำ

@@ -1,0 +1,8 @@
+ss = "CC6"
+"CC6"
+ss = ss + "Codecamp"
+"CC6Codecamp"
+ss
+"CC6Codecamp"
+ss += "Thailand"
+"CC6CodecampThailand"

@@ -1,0 +1,22 @@
+let fruits = ["Apple", "Grape", "Papaya", "Mangosteen"]
+undefined
+fruits.push("Apple")
+5
+fruits
+(5) ["Apple", "Grape", "Papaya", "Mangosteen", "Apple"]
+[1, 2, 3].length
+3
+[1, 2, 3].push(4)
+4
+//ต้องมีตัวแปรจึงจะแสดงได้
+undefined
+let m = [1, 2, 3].push(4)
+undefined
+m
+4
+let n = [1, 2, 3]
+undefined
+n.push(4)
+4
+n
+(4) [1, 2, 3, 4]

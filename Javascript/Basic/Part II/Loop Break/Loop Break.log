@@ -1,0 +1,69 @@
+for(let i=1; i<=9; i++) {
+    console.log(i)
+    if(i==6)
+        break;
+}
+VM190:2 1
+VM190:2 2
+VM190:2 3
+VM190:2 4
+VM190:2 5
+VM190:2 6
+undefined
+for(let i=1; i<=9; i++) {
+    console.log(i)
+    if(i==6)
+        break;
+}
+console.log("End")
+VM241:2 1
+VM241:2 2
+VM241:2 3
+VM241:2 4
+VM241:2 5
+VM241:2 6
+VM241:6 End
+undefined
+for(let i=1; i<=9; i++) {
+    if(i==6){
+        break;
+    }
+    console.log(i)
+}
+console.log("End")
+VM284:5 1
+VM284:5 2
+VM284:5 3
+VM284:5 4
+VM284:5 5
+VM284:7 End
+undefined
+//การใช้ Boolean
+undefined
+Boolean(0)
+false
+Boolean(1)
+true
+Boolean(20)
+true
+// ใช้ !! แทน Boolean
+undefined
+!!0
+false
+!!1
+true
+!!20
+true
+!!100
+true
+let sum = 0
+while(true) {
+    let v = +prompt("Enter number","")
+    if(!v) {break}
+    sum += v // sum = sum + v
+}
+console.log("sum : " + sum)
+VM902:7 sum : 60
+undefined
+// ใส่ 10 20 30 และกด Enter เปล่าๆ มีค่าเท่ากับ 0 10+20+30 = 60
+undefined

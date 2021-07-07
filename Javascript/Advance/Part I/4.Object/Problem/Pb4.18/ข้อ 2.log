@@ -1,0 +1,21 @@
+function isEmpty(obj){
+    for(let key in obj){
+        return false // วน for ได้ แสดงว่ามี key = ไม่ว่าง
+    }
+    return true // ว่าง
+}
+undefined
+let obj = {}
+undefined
+isEmpty(obj)
+true
+// ว่าง
+undefined
+let obj = {
+    name: "Pat"
+};
+undefined
+isEmpty(obj)
+false
+//ไม่ว่าง
+undefined

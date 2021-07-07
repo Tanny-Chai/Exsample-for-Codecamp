@@ -1,0 +1,12 @@
+ss = "Codecamp Thailand"
+"Codecamp Thailand"
+ss.toLowerCase()
+"codecamp thailand"
+let s1 = ss.toLowerCase()
+undefined
+s1
+"codecamp thailand"
+let s1 = ss.toUpperCase()
+undefined
+s1
+"CODECAMP THAILAND"

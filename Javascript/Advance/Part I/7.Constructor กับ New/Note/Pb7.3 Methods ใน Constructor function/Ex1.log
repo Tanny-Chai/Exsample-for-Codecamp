@@ -1,0 +1,13 @@
+function User(name){
+    this.name = name;
+    
+    this.sayHi = function() {
+        console.log(`My name is ${this.name}`)
+    }
+}
+undefined
+let user = new User("Google");
+undefined
+user.sayHi()
+VM1239:5 My name is Google
+undefined

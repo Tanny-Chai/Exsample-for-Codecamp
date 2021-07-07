@@ -1,0 +1,10 @@
+let str = "กรุงเทพมหานคร"
+undefined
+str.startsWith('กร')
+true
+str.startsWith('กรง')
+false
+str.startsWith('กรุ')
+true
+str.endsWith('นคร')
+true

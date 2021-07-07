@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Speed</title>
+    <style>
+        div.speed {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            animation: speed 3s infinite;
+        }
+        @keyframes speed {
+            from {left: 0px;}
+            to {left: 500px;}
+        }
+        #speed1 {animation-timing-function: linear; background-color: yellow;}
+        #speed2 {animation-timing-function: ease; background-color: pink;}
+        #speed3 {animation-timing-function: ease-in; background-color: greenyellow;}
+        #speed4 {animation-timing-function: ease-out; background-color: orange;}
+        #speed5 {animation-timing-function: ease-in-out; background-color: blue;}
+    </style>
+</head>
+<body>
+    <div style="display: grid;
+    border: 1px solid black; width: 600px;height: 500px;">
+        <div class="speed" id="speed1"></div>
+        <div class="speed" id="speed2"></div>
+        <div class="speed" id="speed3"></div>
+        <div class="speed" id="speed4"></div>
+        <div class="speed" id="speed5"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+let user = {
+    name: "Pat"
+};
+undefined
+let admin = user;
+undefined
+admin
+{name: "Pat"}
+user
+{name: "Pat"}
+user.name = "Codecamp"
+"Codecamp"
+user
+{name: "Codecamp"}
+admin
+{name: "Codecamp"}
+user.age = 31
+31
+user
+{name: "Codecamp", age: 31}
+admin
+{name: "Codecamp", age: 31}

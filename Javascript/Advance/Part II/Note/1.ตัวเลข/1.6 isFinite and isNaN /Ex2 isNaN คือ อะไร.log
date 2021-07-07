@@ -1,0 +1,12 @@
+//isNaN() คือ การเช็คว่าไม่ใช่ตัวเลข
+undefined
+isNaN("CC5")
+true
+isNaN(156)
+false
+isNaN(156 * 30)
+false
+isNaN(156 * 30 * "g")
+true
+//กลายเป็น NaN แทน
+undefined

@@ -1,0 +1,24 @@
+0xFF
+255
+0x99
+153
+0x80
+128
+//เลขฐานแปด
+undefined
+0o7
+7
+0o6
+6
+0o8
+VM499:1 Uncaught SyntaxError: Invalid or unexpected token
+//ไม่มี เพราะสุดแค่ 7
+undefined
+0o10
+8
+0o11
+9
+0o16
+14
+0o20
+16

@@ -1,0 +1,20 @@
+let s = '\u0e01\u0e02\u0e03'
+undefined
+s
+"กขฃ"
+\'u0e52'
+VM225:1 Uncaught SyntaxError: Invalid or unexpected token
+'\u0e52'
+"๒"
+'\u0e52'=== "๒"
+true
+'\u0e52'=== "๓"
+false
+'\u0041'
+"A"
+'\x41'
+"A"
+'\x41' === "A"
+true
+'\x41' === "A"
+true

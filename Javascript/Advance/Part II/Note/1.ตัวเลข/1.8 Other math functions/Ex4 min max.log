@@ -1,0 +1,13 @@
+var x = 10, y = -20;
+var z = Math.min(x, y);
+undefined
+z
+-20
+Math.max(10,20,30,40,50)
+50
+Math.min()
+Infinity
+Math.min(1,5,2,7,"a")
+NaN
+Math.min(1,5,2,7,"16")
+1

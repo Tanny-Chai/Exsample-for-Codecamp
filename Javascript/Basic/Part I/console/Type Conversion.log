@@ -1,0 +1,120 @@
+let a = 15
+undefined
+let b = 20
+undefined
+a+b
+35
+String(a)
+"15"
+typeof String(a)
+"string"
+let c = a+b
+undefined
+c
+35
+let d = String(a) + String(b)
+undefined
+d
+"1520"
+let d = String(b) + String(a)
+undefined
+d
+"2015"
+let bl = false
+undefined
+typeof bl
+"boolean"
+z = String(bl)
+"false"
+a
+15
+b
+20
+a = String(a)
+"15"
+a
+"15"
+b = String(b)
+"20"
+b
+"20"
+let str = "1234"
+undefined
+str
+"1234"
+let str2 = "4321"
+undefined
+str2
+"4321"
+str + str2
+"12344321"
+str - str2
+-3087
+str * str2
+5332114
+str/str2
+0.285582041194168
+str = Number(str)
+1234
+str
+1234
+str2 = Number(str2)
+4321
+str2
+4321
+let z = str + str2
+undefined
+z
+5555
+let x
+undefined
+Number(x)
+NaN
+String(x)
+"undefined"
+String(null)
+"null"
+Number(null)
+0
+Number(true)
+1
+Number(false)
+0
+Number(5 > 3)
+1
+Number(5 > 7)
+0
+Boolean(1)
+true
+Boolean(15)
+true
+Boolean(-15)
+true
+Boolean(0)
+false
+Boolean(" ")
+true
+Boolean("0")
+true
+Boolean("true")
+true
+Boolean("false")
+true
+Boolean("")
+false
+"15" + 20
+"1520"
+"15" * "20"
+300
+"15" * "20.0"
+300
+Number("15") * Number("20")
+300
+let str = "Codecamp"
+undefined
+let a = Number(str)
+undefined
+a
+NaN
+typeof a
+"number"

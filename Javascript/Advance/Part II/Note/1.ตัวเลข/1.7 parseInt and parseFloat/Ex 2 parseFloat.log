@@ -1,0 +1,28 @@
+parseFloat("15.6")
+15.6
+parseFloat(prompt("float no."))
+20.5
+//20.5.6
+undefined
+parseFloat(prompt("float no."))
+12.5
+//12.5em
+undefined
+parseFloat(prompt("float no."))
+15
+//15
+undefined
+let f = parseFloat(prompt("float no."))
+undefined
+f
+15
+typeof f
+"number"
+//15
+undefined
+let f = parseFloat(prompt("float no."))
+undefined
+f
+NaN
+//null
+undefined

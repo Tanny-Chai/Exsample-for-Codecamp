@@ -1,0 +1,12 @@
+typeof Infinity
+"number"
+typeof NaN
+"number"
+//เป็น number ที่บอกว่า มันไม่ใช่ number
+undefined
+typeof null
+"object"
+typeof undefined
+"undefined"
+//พยายามคุ้นเคยกับมันไว้
+undefined

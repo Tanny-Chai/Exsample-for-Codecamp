@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill-maode</title>
+    <style>
+        /* สร้างวงกลม */
+        .dot {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            background-color: chartreuse;
+            position: relative;
+            display: inline-block;
+        }
+        /* สร้างวงกลม */
+
+        /* สร้างวงรี */
+        .ell {
+            height: 25px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: cadetblue;
+            position: relative;
+            display: inline-block;
+        }
+        /* สร้างวงรี */
+
+        /* ดวงจันทร์ */
+        .moon {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: #F9E79F;
+            position: relative;
+            animation-name: moon-fall;
+            animation-duration: 5s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+        }
+        @keyframes moon-fall {
+            from {top: 50px;left: 10px;}
+            to {top: 50px;left: 500px; background-color: #2C3E50;}
+        }
+        /* ดวงจันทร์ */
+
+        /* ดวงอาทิตย์ */
+        .sun {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color: #E67E22;
+            position: relative;
+            animation-name: rising-sun;
+            animation-duration: 5s;
+            animation-fill-mode: backwards;
+            animation-iteration-count: infinite;
+        }
+        @keyframes rising-sun {
+            from {top: 50px;left: 500px;background-color: #2C3E50;}
+            to {top: 50px;left: 10px;}
+        }
+        /*ดวงอาทิตย์  */
+
+        /* แปลงร่าง */
+        .transform {
+            height: 100px;
+            width: 100px;
+            background-color: darkblue;
+            position: relative;
+            animation-name: transform;
+            animation-duration: 5s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+            animation-timing-function: ;
+        }
+        @keyframes transform {
+            from {top:100px;left: 10px;border-radius: 50%;}
+            to {top: 100px;left: 500px;border: 1px solid darkblue;}
+        }
+        /* แปลงร่าง */
+    </style>
+</head>
+<body>
+    <h1>ทดลองวาดวงกลม และวงรี</h1>
+    <div class="dot" style="left: 10px; top: 10px;"></div>
+    <div class="ell" style="left: 20px; top: 10px;"></div>
+    <br>
+
+    <h1>animation-fill-mode: forwards</h1>
+    <div class="moon"></div>
+    <br>
+    <br>
+
+    <h1>animation-fill-mode: backwards</h1>
+    <div class="sun"></div>
+    <br><br><br><br>
+
+    <h1>animation-fii-mode: both</h1>
+    <div class="transform"></div>
+</body>
+</html>

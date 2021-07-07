@@ -1,0 +1,22 @@
+let s = ['C','o','d','e',' ','c','a','m','p']
+undefined
+s[3]
+"e"
+s[8]
+"p"
+s.length
+9
+let a = ''
+undefined
+for(let i=0; i<s.length; i++)
+    console.log(s[i])
+VM1267:2 C
+VM1267:2 o
+VM1267:2 d
+VM1267:2 e
+VM1267:2  
+VM1267:2 c
+VM1267:2 a
+VM1267:2 m
+VM1267:2 p
+undefined

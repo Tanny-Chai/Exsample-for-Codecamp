@@ -1,0 +1,11 @@
+function extractCurrencyValue(string, rate) {
+    return Number(string.substr(1, string.length)) * rate;
+}
+
+undefined
+extractCurrencyValue('$120', 30.5)
+3660
+extractCurrencyValue('$10', 30.5)
+305
+extractCurrencyValue('$100', 30.5)
+3050

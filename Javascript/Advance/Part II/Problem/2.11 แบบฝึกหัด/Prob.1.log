@@ -1,0 +1,17 @@
+function ucFirst(string){
+    let x = string;
+    x = x.toLowerCase();
+    x = x.split('');
+    x[0] = x[0].toUpperCase();
+    let a = ''
+    for(let i = 0; i < x.length; i++)
+        a = a + x[i]
+    return a;
+}
+undefined
+ucFirst('book')
+"Book"
+ucFirst('BOOK')
+"Book"
+ucFirst('this is a book')
+"This is a book"

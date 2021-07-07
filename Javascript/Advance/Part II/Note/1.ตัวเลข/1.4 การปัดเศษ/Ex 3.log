@@ -1,0 +1,6 @@
+Math.trunc(3.99999)
+3
+Math.trunc(3.000001)
+3
+//  ใช้ใน internet expolor ไม่ได้
+undefined

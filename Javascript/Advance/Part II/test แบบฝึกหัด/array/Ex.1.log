@@ -1,0 +1,20 @@
+n = 3
+if(n == Number(n)) {
+console.log(n)
+}
+else{
+console.log('No')
+}
+VM10:3 3
+undefined
+n = 'a'
+if(n == Number(n)) {
+console.log(n)
+}
+else{
+console.log('No')
+}
+VM16:6 No
+undefined
+//test การตรวจสอบ Number
+undefined

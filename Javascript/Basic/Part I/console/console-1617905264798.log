@@ -1,0 +1,47 @@
+let age = prompt('Input age: ')
+undefined
+age
+"45"
+Number(age)
+45
+let name = prompt('Enter your name: ')
+undefined
+name
+"Pat"
+let year = prompt('First year of codecamp thailand is...')
+if (year === 2018) {
+    console.log("Correct!!")
+}
+undefined
+let year = prompt('First year of codecamp thailand is...')
+if (year === 2018) {
+    console.log("Correct!!")
+}
+undefined
+let year = prompt('First year of codecamp thailand is...')
+if (year === "2018") {
+    console.log("Correct!!")
+}
+VM2127:3 Correct!!
+undefined
+let year = prompt('First year of codecamp thailand is...')
+if (year === "2018") {
+    console.log("Correct!!")
+}
+undefined
+let year = prompt('First year of codecamp thailand is...')
+if (year === "2018") {
+    console.log("Correct!!")
+} else {
+    console.log("Wrong!!")
+}
+VM2227:5 Wrong!!
+undefined
+let year = prompt('First year of codecamp thailand is...')
+if (year === "2018") {
+    console.log("Correct!!")
+} else {
+    console.log("Wrong!!")
+}
+VM2231:3 Correct!!
+undefined

@@ -1,0 +1,10 @@
+let obj = {};
+undefined
+obj.name = "Sontor"
+"Sontor"
+obj.surname = "Pakorn"
+"Pakorn"
+obj.name = "Boy"
+"Boy"
+delete obj.name
+true

@@ -1,0 +1,18 @@
+function User(name){
+    this.name = name;
+    return {
+        name: "Codecamp"
+    }
+}
+undefined
+User
+ƒ User(name){
+    this.name = name;
+    return {
+        name: "Codecamp"
+    }
+}
+let user = new User("Yahoo")
+undefined
+user
+{name: "Codecamp"}

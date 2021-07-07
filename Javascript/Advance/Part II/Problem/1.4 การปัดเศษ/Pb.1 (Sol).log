@@ -1,0 +1,10 @@
+function finRound(n) {
+    return Math.floor(n*100) / 100
+}
+undefined
+finRound(1.23456)
+1.23
+finRound(1.23777)
+1.23
+finRound(-1.23777)
+-1.24

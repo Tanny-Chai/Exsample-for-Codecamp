@@ -1,0 +1,13 @@
+let obj = {
+    name: "Pat",
+    age: 31,
+    Address: "Thailand",
+    skill: "JS"
+};
+undefined
+"name" in obj
+true
+"age" in obj
+true
+"gender" in obj
+false

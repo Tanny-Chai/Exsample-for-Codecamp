@@ -1,0 +1,20 @@
+let style = ["jazz", "blue"]
+undefined
+style.push("Rock-n-Roll")
+3
+style
+(3) ["jazz", "blue", "Rock-n-Roll"]
+style[1] = "Classic"
+"Classic"
+style
+(3) ["jazz", "Classic", "Rock-n-Roll"]
+let x = style.shift()
+undefined
+x
+"jazz"
+style
+(2) ["Classic", "Rock-n-Roll"]
+style.unshift("Rap", "Reggae")
+4
+style
+(4) ["Rap", "Reggae", "Classic", "Rock-n-Roll"]

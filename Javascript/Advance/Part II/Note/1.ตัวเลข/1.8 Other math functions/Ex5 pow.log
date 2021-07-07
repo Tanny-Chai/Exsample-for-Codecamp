@@ -1,0 +1,4 @@
+Math.pow(2,4)
+16
+Math.pow(-2,0.5)
+NaN

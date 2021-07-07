@@ -1,0 +1,16 @@
+let s = ['C','o','d','e',' ','c','a','m','p']
+undefined
+let ss = "Codecamp"
+undefined
+for(let c of s)
+    console.log(c)
+VM3409:2 C
+VM3409:2 o
+VM3409:2 d
+VM3409:2 e
+VM3409:2  
+VM3409:2 c
+VM3409:2 a
+VM3409:2 m
+VM3409:2 p
+undefined

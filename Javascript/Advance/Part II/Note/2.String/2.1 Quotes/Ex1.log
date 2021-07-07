@@ -1,0 +1,14 @@
+let s1 = "Codecamp";
+undefined
+s1
+"Codecamp"
+let s2 = 'Thailand';
+undefined
+s2
+"Thailand"
+let s3 = `BKK`;
+undefined
+s3
+"BKK"
+s1 + s2 + s3
+"CodecampThailandBKK"

@@ -1,0 +1,10 @@
+fruits = ["Apple", "Orange", "Pear"]
+(3) ["Apple", "Orange", "Pear"]
+fruits[3] = "Mango"
+"Mango"
+fruits
+(4) ["Apple", "Orange", "Pear", "Mango"]
+fruits[5] = "Pineapple"
+"Pineapple"
+fruits
+(6) ["Apple", "Orange", "Pear", "Mango", empty, "Pineapple"]0: "Apple"1: "Orange"2: "Pear"3: "Mango"5: "Pineapple"length: 6__proto__: Array(0)

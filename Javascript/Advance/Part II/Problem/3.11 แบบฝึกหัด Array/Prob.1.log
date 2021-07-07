@@ -1,0 +1,12 @@
+let fruits = ["Apple", "Pear", "Orange"];
+undefined
+let shopCard = fruits;
+undefined
+shopCard.push("Banana");
+4
+fruits
+(4) ["Apple", "Pear", "Orange", "Banana"]
+alert(fruits.length)
+undefined
+//ตอบ 4
+undefined

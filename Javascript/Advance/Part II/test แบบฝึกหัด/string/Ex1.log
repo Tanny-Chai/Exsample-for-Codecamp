@@ -1,0 +1,10 @@
+//การใส่ค่าในฟังก์ชันที่เป็น string
+undefined
+function ucFirst(string) {
+
+    return string.toUpperCase()
+
+}
+undefined
+ucFirst('abc')
+"ABC"

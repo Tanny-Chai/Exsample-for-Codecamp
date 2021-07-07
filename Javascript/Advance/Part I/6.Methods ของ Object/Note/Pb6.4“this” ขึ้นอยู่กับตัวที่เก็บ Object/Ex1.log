@@ -1,0 +1,18 @@
+let user = {name: "John"};
+let admin = {name: "admin"};
+
+function sayHi() {
+    console.log( this.name );
+}
+undefined
+user.sayHi = sayHi;
+admin.sayHi = sayHi;
+ƒ sayHi() {
+    console.log( this.name );
+}
+user.sayHi()
+VM2862:5 John
+undefined
+admin.sayHi()
+VM2862:5 admin
+undefined

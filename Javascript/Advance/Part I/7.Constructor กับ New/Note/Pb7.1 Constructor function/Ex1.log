@@ -1,0 +1,22 @@
+ let user = {
+     name: "Pat",
+     age: 31
+ }
+undefined
+user
+{name: "Pat", age: 31}
+function User(name, age){
+    this.name = name;
+    this.age = age;
+}
+undefined
+
+let user = new User("Pat", 31);
+undefined
+user
+User {name: "Pat", age: 31}
+
+let user = new User("Toe", 45);
+undefined
+user
+User {name: "Toe", age: 45}

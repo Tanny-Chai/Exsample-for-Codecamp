@@ -1,0 +1,14 @@
+let fruits = ["Apple", "Grape", "Papaya", "Mangosteen", "Apple"]
+undefined
+fruits.splice(4,1) // เอา item ที่ 4 ออกไป 1 ตัว
+["Apple"]
+fruits
+(4) ["Apple", "Grape", "Papaya", "Mangosteen"]
+fruits.splice(5,1)
+[]
+fruits.splice(4,1)
+[]
+fruits.splice(0,2)
+(2) ["Apple", "Grape"]
+fruits
+(2) ["Papaya", "Mangosteen"]

@@ -1,0 +1,110 @@
+let bl = 5 > 2
+undefined
+bl
+true
+typeof bl
+"boolean"
+bl = (20 < 5)
+false
+3 < 5
+true
+4 == 2+2
+true
+4 = 2+3
+VM308:1 Uncaught SyntaxError: Invalid left-hand side in assignment
+4 == 2+3
+false
+4 != 2+2
+false
+"4" == 2+2
+true
+"4" == "2" + "2"
+false
+"4" == "2" + 2
+false
+"4" == Number("2") + 2
+true
+4 == 4
+true
+"1" < "A"
+true
+1 < "A"
+false
+"1" > "A"
+false
+"BEE" > "BE"
+true
+"BEE" == "BE"
+false
+"BEE" != "BE"
+true
+true == 5
+false
+true == 1
+true
+false == 0
+true
+false == 5
+false
+"1" == 1
+true
+"12" > 10
+true
+"12" < 10
+false
+null > -1
+true
+null == 0
+false
+null == 1
+false
+null == -1
+false
+"12" == 12
+true
+"12" === 12
+false
+null > -1
+true
+null == 0
+false
+null == 1
+false
+null === 1
+false
+null != -1
+true
+null != 0
+true
+1 != "1"
+false
+!true
+false
+!false
+true
+!(1 != "1")
+true
+1 !== "1"
+true
+null == undefined
+true
+typeof null
+"object"
+typeof undefined
+"undefined"
+null == 0
+false
+null == 1
+false
+null <= 1
+true
+null <= 10
+true
+null <= 0
+true
+null === 0
+false
+null !== 0
+true
+null >= 0
+true

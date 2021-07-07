@@ -1,0 +1,153 @@
+for(let i=0; i<3; i++) {
+console.log("รอบที่" + i)
+}
+VM143:2 รอบที่0
+VM143:2 รอบที่1
+VM143:2 รอบที่2
+undefined
+for(let i=0; i<3; i++) {
+console.log("รอบที่" + i)
+}
+console.log("Bye")
+VM197:2 รอบที่0
+VM197:2 รอบที่1
+VM197:2 รอบที่2
+VM197:4 Bye
+undefined
+for(let i=0; i<5; i++) {
+console.log("รอบที่" + i)
+}
+console.log("Bye")
+VM202:2 รอบที่0
+VM202:2 รอบที่1
+VM202:2 รอบที่2
+VM202:2 รอบที่3
+VM202:2 รอบที่4
+VM202:4 Bye
+undefined
+for(let i=1; i<6; i++) {
+console.log("รอบที่" + i)
+}
+console.log("Bye")
+VM209:2 รอบที่1
+VM209:2 รอบที่2
+VM209:2 รอบที่3
+VM209:2 รอบที่4
+VM209:2 รอบที่5
+VM209:4 Bye
+undefined
+for(let i=1; i<11; i+=2) {
+console.log("รอบที่" + i)
+}
+console.log("Bye")
+VM230:2 รอบที่1
+VM230:2 รอบที่3
+VM230:2 รอบที่5
+VM230:2 รอบที่7
+VM230:2 รอบที่9
+VM230:4 Bye
+undefined
+let n = 1
+undefined
+n = n+2
+3
+n +=2
+5
+for(let i = 1; i<129; i*=2) {
+console.log("i = " + i)
+}
+console.log('Bye')
+VM515:2 i = 1
+VM515:2 i = 2
+VM515:2 i = 4
+VM515:2 i = 8
+VM515:2 i = 16
+VM515:2 i = 32
+VM515:2 i = 64
+VM515:2 i = 128
+VM515:4 Bye
+undefined
+for(let i = 1; i<10; i++) {
+console.log(i)
+}
+VM666:2 1
+VM666:2 2
+VM666:2 3
+VM666:2 4
+VM666:2 5
+VM666:2 6
+VM666:2 7
+VM666:2 8
+VM666:2 9
+undefined
+for(var i = 1; i<10; i++) {
+console.log(i)
+}
+VM686:2 1
+VM686:2 2
+VM686:2 3
+VM686:2 4
+VM686:2 5
+VM686:2 6
+VM686:2 7
+VM686:2 8
+VM686:2 9
+undefined
+for(let i = 1; i<10; i++) {
+console.log(i)
+}
+VM690:2 1
+VM690:2 2
+VM690:2 3
+VM690:2 4
+VM690:2 5
+VM690:2 6
+VM690:2 7
+VM690:2 8
+VM690:2 9
+undefined
+i
+10
+for(var i = 1; i<10; i++) {
+console.log(i)
+}
+VM707:2 1
+VM707:2 2
+VM707:2 3
+VM707:2 4
+VM707:2 5
+VM707:2 6
+VM707:2 7
+VM707:2 8
+VM707:2 9
+undefined
+i
+10
+for(var i = 1; i<20; i++) {
+console.log(i)
+}
+VM727:2 1
+VM727:2 2
+VM727:2 3
+VM727:2 4
+VM727:2 5
+VM727:2 6
+VM727:2 7
+VM727:2 8
+VM727:2 9
+VM727:2 10
+VM727:2 11
+VM727:2 12
+VM727:2 13
+VM727:2 14
+VM727:2 15
+VM727:2 16
+VM727:2 17
+VM727:2 18
+VM727:2 19
+undefined
+i
+20
+//ภายใน for ใช้ let ดีกว่า var เพราะ เมื่อค่า i หลุดจาก for มาแล้วจะลืมค่า i ทันที ไม่สามารถนำมาใช้ได้อีก
+// *กรณีที่มีการเคลียร์ spacecแล้ว
+undefined

@@ -1,0 +1,14 @@
+let message = "codecamp";
+undefined
+let pharse = message;
+undefined
+pharse
+"codecamp"
+message
+"codecamp"
+pharse = "Codecamp12";
+"Codecamp12"
+message
+"codecamp"
+//เพราะค่าทั้งสองของ pharse กับ message ต่างแยกกันเก็บ
+undefined

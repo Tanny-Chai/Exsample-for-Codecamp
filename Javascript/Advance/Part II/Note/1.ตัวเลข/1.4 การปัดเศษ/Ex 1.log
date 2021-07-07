@@ -1,0 +1,16 @@
+Math.pow(2,3)
+8
+Math.pow(3,2)
+9
+Math.floor(-1.1)
+-2
+Math.floor(-1.9)
+-2
+Math.floor(1.9249698602832)
+1
+Math.ceil(3.1)
+4
+Math.ceil(-1.6)
+-1
+Math.ceil(1.6)
+2

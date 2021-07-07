@@ -1,0 +1,23 @@
+let s = ['C','o','d','e',' ','c','a','m','p']
+undefined
+let a = ''
+undefined
+for(let i=0; i<s.length; i++)
+    a = a + s[i]
+"Code camp"
+a
+"Code camp"
+typeof a
+"string"
+a[0]
+"C"
+a.charAt(0)
+"C"
+a.charAt(4)
+" "
+a.charAt(6)
+"a"
+a[6]
+"a"
+//string เป็น array ของ charactor
+undefined

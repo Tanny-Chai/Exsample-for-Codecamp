@@ -1,0 +1,8 @@
+String.fromCharCode(74)
+"J"
+String.fromCharCode(0x4A)
+"J"
+String.fromCharCode(0x40)
+"@"
+String.fromCharCode(0b01100011)
+"c"

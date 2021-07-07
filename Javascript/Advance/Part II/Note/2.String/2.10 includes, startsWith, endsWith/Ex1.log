@@ -1,0 +1,16 @@
+let str = "กรุงเทพมหานคร"
+undefined
+str.includes("เทพ")
+true
+str.includes("เท่")
+false
+str.includes("หา")
+true
+str.includes("หาร")
+false
+str.includes("หาน")
+true
+str.includes("เทพ", 4) // staff ตัวที่ 4
+true
+str.includes("เทพ", 5) // staff ตัวที่ 5
+false

@@ -1,0 +1,14 @@
+let dayName = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+undefined
+dayName[0]
+"sun"
+dayName[1]
+"mon"
+dayName[2]
+"tue"
+dayName[7]
+undefined
+dayName[7] = "Holiday"
+"Holiday"
+dayName
+(8) ["sun", "mon", "tue", "wed", "thu", "fri", "sat", "Holiday"]

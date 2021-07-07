@@ -1,0 +1,28 @@
+let a = [1,4,5,7,2,8,0];
+undefined
+let b = Math.max(...a);
+undefined
+b
+8
+let c = Math.min(...c);
+
+let c = Math.min(...a);
+undefined
+c
+0
+let d = a.indexOf(Math.max(...a));
+undefined
+d
+5
+if(d - 1 !== c) {
+    b + a[d-1]
+}
+10
+
+if(d - 1 != c) {
+    e = b + a[d-1]
+    if(d + 1 != c) {
+        e + a[d+1]
+    }
+}
+10

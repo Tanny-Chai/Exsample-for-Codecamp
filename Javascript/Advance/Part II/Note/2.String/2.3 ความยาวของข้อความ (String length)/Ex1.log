@@ -1,0 +1,19 @@
+s = "Codecamp Thailand"
+"Codecamp Thailand"
+s.length
+17
+s = "Codecamp Thailand "
+"Codecamp Thailand "
+s.length
+18
+s = "Codecamp\tThailand"
+"Codecamp\tThailand"
+s.length
+
+17
+alert(s)
+undefined
+s = "Codecamp   Thailand"
+"Codecamp   Thailand"
+s.length
+19

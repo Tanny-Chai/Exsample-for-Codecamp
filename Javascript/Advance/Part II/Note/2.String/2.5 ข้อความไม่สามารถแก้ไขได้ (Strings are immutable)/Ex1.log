@@ -1,0 +1,10 @@
+str = "Codecamp Thailand"
+"Codecamp Thailand"
+str[2]
+"d"
+str[2] = 'x'
+"x"
+str
+"Codecamp Thailand"
+// str ไม่ยอม
+undefined

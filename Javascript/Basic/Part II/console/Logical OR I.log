@@ -1,0 +1,195 @@
+1>2
+false
+2>1
+true
+1>2 || 3>2
+true
+1>3 || 5<4 || 8==9
+false
+let age = prompt('Enter Age')
+    if (age<18 || age>60) {
+        console.log('Not Quality...')
+    }else {
+        console.log('Qualify')
+    }
+VM445:3 Not Quality...
+undefined
+let age = prompt('Enter Age')
+    if (age<18 || age>60) {
+        console.log('Not Quality...')
+    }else {
+        console.log('Qualify')
+    }
+VM449:5 Qualify
+undefined
+let age = prompt('Enter Age')
+    if (age<18 || age>60) {
+        console.log('Not Quality...')
+    }else {
+        console.log('Qualify')
+    }
+VM453:5 Qualify
+undefined
+let age = prompt('Enter Age')
+    if (age<18 || age>60) {
+        console.log('Not Quality...')
+    }else {
+        console.log('Qualify')
+    }
+VM457:5 Qualify
+undefined
+1>2 || 2>3 || 5<6
+true
+1>2 || 2>3 || "H"
+"H"
+Boolean("H")
+true
+1>2 || 2>3 || 0
+0
+1>2 || 2>3 || null
+null
+Boolean(null)
+false
+2>5 || 5>2 || null
+true
+2>5 || 5>2 || console.log('End')
+true
+Boolean(console.log('End'))
+VM815:1 End
+false
+2>5 || 5<3 || console.log('End')
+VM923:1 End
+undefined
+1==2 || "Haha" || 6>3
+"Haha"
+Boolean("Haha")
+true
+Boolean("H")
+true
+Boolean("")
+false
+Boolean(1==2 || "Haha" || 6>3)
+true
+if(1==2 || "Haha" || 6>3) {cosole.log('it TRUE after Eval...')}
+VM1196:1 Uncaught ReferenceError: cosole is not defined
+    at <anonymous>:1:28
+(anonymous) @ VM1196:1
+if(1==2 || "Haha" || 6>3) {console.log('it TRUE after Eval...')}
+VM1204:1 it TRUE after Eval...
+undefined
+if(1==2 || "Haha" || 6>3) {console.log('it is TRUE after Eval...')}
+VM1211:1 it is TRUE after Eval...
+undefined
+if(1==2 || "" || 6>3) {console.log('it is TRUE after Eval...')}
+VM1221:1 it is TRUE after Eval...
+undefined
+if(1==2 || "" || 6===3) {console.log('it is TRUE after Eval...')}
+undefined
+if(1==2 || 0 || 6===3) {console.log('it is TRUE after Eval...')}
+undefined
+Boolean(0)
+false
+if(1 || 1==2 || 0 || 6===3) {console.log('it is TRUE after Eval...')}
+VM1300:1 it is TRUE after Eval...
+undefined
+Boolean(1)
+true
+true || 'not metter'
+true
+'not metter' || true
+"not metter"
+Boolean('not metter')
+true
+console.log(null || 1)
+VM1540:1 1
+undefined
+Boolean(null || 1)
+true
+console.log(null || 0 || "")
+VM1663:1 
+undefined
+Boolean(null || 0 || "")
+false
+Boolean(0 || "" || null)
+false
+console.log(0 || "" || null)
+VM1777:1 null
+undefined
+console.log("" || null || 0)
+VM1845:1 0
+undefined
+console.log("" || null || "OK" || 0) // ถ้า false หมด แล้วมี true ตัวเดียว มันจะได้ค่าตามตัวนั้น
+VM1991:1 OK
+undefined
+let f
+undefined
+f
+undefined
+Boolean(f)
+false
+f = 5
+5
+Boolean(f)
+true
+Boolean(undefined)
+false
+//undifine = false เสมอ
+undefined
+console.log(null || 0 || g)
+VM2279:1 Uncaught ReferenceError: g is not defined
+    at <anonymous>:1:26
+(anonymous) @ VM2279:1
+let g
+undefined
+console.log(null || 0 || g)
+VM2296:1 undefined
+undefined
+console.log(null || 0 || undefined)
+VM2329:1 undefined
+undefined
+g = "G"
+"G"
+console.log(null || 0 || undefined)
+VM2365:1 undefined
+undefined
+console.log(null || 0 || g)
+VM2405:1 G
+undefined
+let currentUser = prompt('Current User')
+let defaultUser = prompt('Default User')
+let userName = currentUser || defaultUser || 'Unknow User'
+undefined
+userName
+"rt"
+let currentUser = prompt('Current User')
+let defaultUser = prompt('Default User')
+let userName = currentUser || defaultUser || 'Unknow User'
+console.log(userName)
+VM2786:4 RT
+undefined
+let currentUser = prompt('Current User')
+let defaultUser = prompt('Default User')
+let userName = currentUser || defaultUser || 'Unknow User' // ใส่แต่ defaultUser
+console.log(userName)
+VM2820:4 CC5
+undefined
+let currentUser = prompt('Current User')
+let defaultUser = prompt('Default User')
+let userName = currentUser || defaultUser || 'Unknow User' // ใส่แต่ defaultUser
+console.log(userName)
+VM2826:4 CC5
+undefined
+let currentUser = prompt('Current User')
+let defaultUser = prompt('Default User')
+let userName = currentUser || defaultUser || 'Unknow User' // ไม่ใส่เลยทั้ง ๒
+console.log(userName)
+VM2851:4 Unknow User
+undefined
+currentUser
+""
+Boolean(currentUser)
+false
+Boolean(defaultUser)
+false
+//เพราะเราไม่ใส่ค่าเลย จึงเป็น false
+undefined

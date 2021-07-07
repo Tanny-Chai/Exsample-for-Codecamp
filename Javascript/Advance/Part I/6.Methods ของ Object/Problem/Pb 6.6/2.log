@@ -1,0 +1,17 @@
+function makeUser() {
+  return {
+    name: "John",
+    ref: this
+  };
+};
+
+let user = makeUser();
+
+alert( user.ref.name ); // What's the result?
+undefined
+user
+{name: "John", ref: Window}
+makeUser();
+{name: "John", ref: Window}
+// เพราะ window  เป็นคนเรียก
+undefined

@@ -1,0 +1,16 @@
+let a = {};
+undefined
+let b = {};
+undefined
+a == b;
+false
+// เพราะคนละแหล่งที่มา เช่น a อยู่ไทย b อยู่จีน
+undefined
+let c = {};
+undefined
+let d = c;
+undefined
+c == d
+true
+//เพราะเก็บ refferent เดียวกัน
+undefined

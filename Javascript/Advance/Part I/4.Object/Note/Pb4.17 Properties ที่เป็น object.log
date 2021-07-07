@@ -1,0 +1,18 @@
+let user = {
+  name: "John",
+  sizes: {
+    height: 182,
+    width: 50
+  }
+};
+
+
+undefined
+user
+{name: "John", 
+  sizes: {…}}name: "John"
+  sizes: {
+    height: 182, 
+    width: 50
+}
+__proto__: Object

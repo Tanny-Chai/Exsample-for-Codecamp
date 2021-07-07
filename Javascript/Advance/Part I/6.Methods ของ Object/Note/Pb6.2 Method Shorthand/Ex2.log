@@ -1,0 +1,12 @@
+use = {
+    sayHi: function(){
+        console.log("Hi");
+    }
+}
+{sayHi: ƒ}sayHi: ƒ ()__proto__: Object
+user = {
+    sayHi(){
+        console.log("Hi")
+    }
+}
+{sayHi: ƒ}sayHi: ƒ sayHi()__proto__: Object

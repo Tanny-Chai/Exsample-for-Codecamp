@@ -1,0 +1,10 @@
+let ss = ['c','o','d','e']
+undefined
+ss[0] = ss[0].toUpperCase()
+"C"
+ss
+(4) ["C", "o", "d", "e"]
+String(ss)
+"C,o,d,e"
+//แปลงตัวแรกเป็นตัวใหญ่
+undefined

@@ -1,0 +1,6 @@
+let fruits = ["Orange", "Pear", "Mango", "Grape", "Pineapple", "Papaya"]
+undefined
+fruits.push("Papaya", "Mangosteen")
+8
+fruits
+(8) ["Orange", "Pear", "Mango", "Grape", "Pineapple", "Papaya", "Papaya", "Mangosteen"]

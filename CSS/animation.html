@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        /* ใช้ Delay */
+        div.delay {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: red;
+            animation: delay 1s infinite;
+            animation-delay: 5s; /*ใช้แค่ตอนเริ่มรันครั้งเดียวเท่านั้น*/
+            animation-duration: 2s; /*หน่วงความเร็วการเคลื่อนไหว ถ้าใส่-จะออกตัวเร็วขึ้น*/
+        }
+        @keyframes delay {
+            from {left: 5px;top: 5px}
+            to {left: 105px;top: 5px;}
+        }
+        /* ใช้ Delay */
+
+        /* iteration-count */
+        div.times {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: seagreen;
+            animation-name: times;
+            animation-duration: 3s;
+            animation-iteration-count: 3; /*จำนวนครั้งของ animation*/
+                                        /* ถ้าใส่ว่า infinite จะวนลูปไปเรื่อยๆ ไม่จำกัดครั้ง */
+        }
+        @keyframes times {
+            0% {left: 0px;top: 200px;}
+            33.33% {left: 100px;top: 0px;}
+            66.67% {left: 200px;top: 200px;}
+            100% {left: 0px;top: 200px;}
+        }
+         /* iteration-count */
+
+        /* reverse */
+        div.reverse {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: cornflowerblue;
+            animation-name: reverse;
+            animation-duration: 3s;
+            animation-direction: reverse;
+            animation-iteration-count: 3;
+        }
+        @keyframes reverse {
+            0% {left: 0px;top: 200px;}
+            20% {left: 100px;top: 0px;}
+            40% {left: 200px;top: 200px;}
+            60% {left: 0px;top: 100px;}
+            80% {left: 200px;top:  100px;}
+            100% {left: 0px;top: 200px;}
+        }
+        /* reverse */
+
+        /* alternate */
+        div.alternate {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: chartreuse;
+            animation-name: alternate;
+            animation-duration: 3s;
+            animation-direction: alternate;
+            animation-iteration-count: 3;
+        }
+        @keyframes alternate {
+            0% {left: 0px;top: 200px;}
+            20% {left: 100px;top: 0px;}
+            40% {left: 200px;top: 200px;}
+            60% {left: 0px;top: 100px;}
+            80% {left: 200px;top:  100px;}
+            100% {left: 0px;top: 200px;}
+        }
+        /* alternate */
+
+        /* alternate */
+        div.front-back {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            background-color: coral;
+            animation-direction: alternate-reverse;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+            animation-name: front-back;
+        }
+        @keyframes front-back {
+            0% {left: 0px;top: 200px;}
+            20% {left: 100px;top: 0px;}
+            40% {left: 200px;top: 200px;}
+            60% {left: 0px;top: 100px;}
+            80% {left: 200px;top:  100px;}
+            100% {left: 0px;top: 200px;}  
+        }
+        /* alternate */
+
+    </style>
+</head>
+<body>
+    <h1>1.delay</h1>
+    <div class="delay"></div>
+    <br>
+
+    <h1>2.How many times to animation</h1>
+    <div style="display: grid;width: 300px;height: 300px;position: relative;top: 50px;
+    border: 1px solid black;">
+    <div class="times"></div>
+    </div>
+    <br>
+
+    <div style="position: relative;top: 100px;"><h1>3.Reverse</h1></div>
+    <div style="display: grid;width: 300px;height: 300px;position: relative;top: 100px;
+    border: 1px solid black;">
+    <div class="reverse"></div>   
+    </div>
+    <br>
+
+    <div style="position: relative;top: 100px;"><h1>4.Alternate</h1></div>
+    <div style="display: grid;width: 300px;height: 300px;position: relative;top: 100px;
+    border: 1px solid black;">
+    <div class="alternate"></div>
+    </div>
+    <br>
+
+    <div style="position: relative;top: 100px;"><h1>5.Alternate-Reverse</h1></div>
+    <div style="display: grid;width: 300px;height: 300px;position: relative;top: 100px;
+    border: 1px solid black;">
+    <div class="front-back"></div>
+    </div>
+    <br>
+
+    <div style="position: relative;top: 100px;">6.Speed</div>
+    <div style="position: relative;top: 120px;">
+        <iframe src="./animationSpeed.html" frameborder="Speed"
+        style="width: 610px;height: 600px;">
+        </iframe>
+    </div>
+</body>
+</html>

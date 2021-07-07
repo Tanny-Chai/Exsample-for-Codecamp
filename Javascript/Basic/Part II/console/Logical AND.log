@@ -1,0 +1,79 @@
+if(5>3 && 6>4) {console.log("OK")}
+VM103:1 OK
+undefined
+if(5>3 && 6>4 && 4<1) {console.log("OK")}
+undefined
+5>3
+true
+6>4
+true
+4<1
+false
+1 && 0
+0
+0 && 1
+0
+Boolean(0)
+false
+0 && 1 && "OK"
+0
+1 && 1 && "OK"
+"OK"
+1 && 0 && "OK"
+0
+0 && 1 && null
+0
+"0" && 1 && null
+null
+Boolean(null)
+false
+Boolean("0")
+true
+1 && true & 5>2 && "OK"
+"OK"
+Boolean(1 && true & 5>2 && "OK")
+true
+1 && 5
+5
+1 && 10
+10
+0 && "OK"
+0
+0 && null && "OK"
+0
+null && 0 && "OK"
+null
+true && alert("CC6") && null && 0 && "OK"
+undefined
+Boolean(true && alert("CC6") && null && 0 && "OK")
+false
+true && 0 && alert("CC6") && null && 0 && "OK"
+0
+Boolean(alert("CC6"))
+false
+// ศึกษาค่า true false ใน alert
+undefined
+let x = prompt("Input X")
+if(x>0) console.log("มากกว่า 0")
+VM1180:2 มากกว่า 0
+undefined
+//ใส่ 5
+undefined
+let x = prompt("Input X")
+if(x>0) console.log("มากกว่า 0")
+undefined
+//ใส่ 0
+undefined
+let x = prompt("Input X");
+(x>0) && console.log("มากกว่า 0") // ใส่ && แทน if
+//อย่าลืมใส่ ; หลัง prompt เพราะไม่มี if ถือว่าเป็นบรรทัดเดียวกัน
+VM1582:2 มากกว่า 0
+undefined
+//ใส่ 5
+undefined
+let x = prompt("Input X");
+(x>0) && console.log("มากกว่า 0")
+
+false
+//ใส่ -4
+undefined

@@ -1,0 +1,8 @@
+let x = ['r','c','a']
+x[0] = x[0].toUpperCase()
+let a = ''
+for(let i=0; i<x.length; i++)
+    a = a + x[i]
+"Rca"
+//ทำตัวหน้าให้เป็นตัวใหญ่ และรวมเป็น string ดังเดิม
+undefined

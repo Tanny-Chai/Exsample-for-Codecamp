@@ -1,0 +1,8 @@
+function ucFirst(string) {
+    return string.split(" ");
+}
+undefined
+ucFirst('abc')
+["abc"]0: "abc"length: 1__proto__: Array(0)
+//แปลง string เป็น array
+undefined

@@ -1,0 +1,14 @@
+let s = ['C','o','d','e',' ','c','a','m','p']
+undefined
+let ss = "Codecamp"
+undefined
+typeof s
+"object"
+typeof ss
+"string"
+ss.charAt(2)
+"d"
+s.charAt(2)
+VM3269:1 Uncaught TypeError: s.charAt is not a function
+    at <anonymous>:1:3
+(anonymous) @ VM3269:1

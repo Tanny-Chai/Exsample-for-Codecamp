@@ -1,0 +1,65 @@
+let score = prompt('Key your score');
+
+
+
+let grade
+;
+
+
+if (score >=80) {
+
+grade= "A"
+
+alert("Grade" + " " + grade);
+
+console.log("You get " +grade);
+
+}
+
+
+
+else if (score >=70 || score <= 79) {
+
+grade = "B"
+
+alert("Grade" + " " + grade);
+
+console.log("You get " + grade);
+
+}
+
+
+
+else if (score >=60 || score <= 69) {
+
+grade = "C"
+
+alert("Grade" + " " + grade);
+
+console.log("You get " + grade);
+
+}
+
+
+
+else if (score >=50 || score <= 59) {
+
+grade = "D"
+
+alert("Grade" + " " + grade);
+
+console.log("You get " + grade);
+
+}
+
+
+
+else {
+
+grade = "F"
+
+alert("Grade" + " " + grade);
+
+console.log("You get " + grade);
+
+}

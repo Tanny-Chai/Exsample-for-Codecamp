@@ -1,0 +1,18 @@
+let i = 0, a = [], sum = 0;
+while(true) {
+    let n = prompt(`Input object array : `);
+    if(n = Number(n)) {
+        a[i] = n;
+        sum += n;
+        i++;
+    }
+    else {
+        console.log(a);
+        console.log(sum);
+        break;
+    }
+}
+//test ข้อ 3 ก่อนใส่ function จริง
+VM266:10 (3) [1, 2, 3]
+VM266:11 6
+undefined

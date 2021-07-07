@@ -1,0 +1,16 @@
+let n = 255
+undefined
+n.toString()
+"255"
+n.toString(16)
+"ff"
+n.toString(2)
+"11111111"
+n.toString(8)
+"377"
+n.toString(9)
+"313"
+n.toString(10)
+"255"
+//แปลงเลขฐานด้วย toString()
+undefined

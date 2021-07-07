@@ -1,0 +1,12 @@
+let fruits = ["Apple", "Orange", "Pear", "Mango", "Grape", "Pineapple"]
+undefined
+fruits.push("Papaya")
+7
+fruits
+(7) ["Apple", "Orange", "Pear", "Mango", "Grape", "Pineapple", "Papaya"]
+let a = fruits.shift()
+undefined
+a
+"Apple"
+fruits
+(6) ["Orange", "Pear", "Mango", "Grape", "Pineapple", "Papaya"]
