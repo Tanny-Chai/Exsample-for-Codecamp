@@ -1,0 +1,10 @@
+let allBody = ["head", "shoulder", "knee", "toe"]
+undefined
+allBody.concat(['eye', 'ear'])
+(6) ["head", "shoulder", "knee", "toe", "eye", "ear"]
+allBody.concat(['eye'], ['ear'])
+(6) ["head", "shoulder", "knee", "toe", "eye", "ear"]
+allBody.concat([['eye'], 'ear'])
+(6) ["head", "shoulder", "knee", "toe", Array(1), "ear"]
+//แกะให้เฉพาะแค่ array นอกเพียงชั้นเดียว
+undefined

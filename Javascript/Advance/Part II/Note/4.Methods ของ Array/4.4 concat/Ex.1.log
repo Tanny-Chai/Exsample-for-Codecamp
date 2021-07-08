@@ -1,0 +1,36 @@
+let body = ['head', 'shoulder']
+undefined
+let bd1 = ['knee', 'toe']
+undefined
+body.concat(bd1)
+(4) ["head", "shoulder", "knee", "toe"]
+bd1
+(2) ["knee", "toe"]
+//bd1 ไม่เปลี่ยน จึงควรมีตัวแปรรองรับ
+undefined
+let allBody = body.concat(bd1)
+undefined
+allBody
+(4) ["head", "shoulder", "knee", "toe"]
+allBody.concat('eye', 'ear')
+(6) ["head", "shoulder", "knee", "toe", "eye", "ear"]
+//ใส่ Element ตรงๆได้
+undefined
+allBody
+(4) ["head", "shoulder", "knee", "toe"]
+allBody.push(['eye', 'ear'])
+5
+allBody
+(5) ["head", "shoulder", "knee", "toe", Array(2)]0: "head"1: "shoulder"2: "knee"3: "toe"4: (2) ["eye", "ear"]0: "eye"1: "ear"length: 2__proto__: Array(0)length: 5__proto__: Array(0)
+allBody[4]
+(2) ["eye", "ear"]
+allBody[4][0]
+"eye"
+allBody[4][1]
+"ear"
+allBody.pop
+ƒ pop() { [native code] }
+allBody.pop()
+(2) ["eye", "ear"]
+allBody
+(4) ["head", "shoulder", "knee", "toe"]
