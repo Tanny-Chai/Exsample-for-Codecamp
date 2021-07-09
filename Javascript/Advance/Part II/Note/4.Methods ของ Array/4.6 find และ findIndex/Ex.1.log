@@ -1,0 +1,44 @@
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+undefined
+
+users.find( function(x) {
+    return (x.id === 1)
+})
+{id: 1, name: "John"}
+users.find( function(x) {
+    return (x.id === 2)
+})
+{id: 2, name: "Pete"}
+users.find( function(x) {
+    return (x.id === 3)
+})
+{id: 3, name: "Mary"}id: 3name: "Mary"__proto__: Object
+let u = users.find( function(x) {
+    return (x.id === 1)
+}]
+VM407:3 Uncaught SyntaxError: missing ) after argument list
+let u = users.find( function(x) {
+    return (x.id === 1)
+})
+undefined
+u
+{id: 1, name: "John"}
+let u = users.find( function(x) {
+    return (x.id === 4)
+})
+undefined
+u
+undefined
+
+// ไม่มี Array ตัวที่ 4
+undefined
+let u = users.find( (x) => {
+    return (x.id === 2)
+})
+undefined
+u
+{id: 2, name: "Pete"}

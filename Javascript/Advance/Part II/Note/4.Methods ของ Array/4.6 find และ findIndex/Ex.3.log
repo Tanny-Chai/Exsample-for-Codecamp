@@ -1,0 +1,30 @@
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+undefined
+let u = users.find( function(x) {
+    return (true)
+})
+undefined
+u
+{id: 1, name: "John"}
+let v = users.find( function(x) {
+    return (false)
+})
+undefined
+v
+undefined
+let w = users.find( function(x) {
+    return (x.id > 1)
+})
+undefined
+w
+{id: 2, name: "Pete"}
+let x = users.find( function(x) {
+    return (x.id > 2)
+})
+undefined
+x
+{id: 3, name: "Mary"}

@@ -1,0 +1,18 @@
+let products = [
+{ pname: "Apple", price: 100 }, 
+{ pname: "Orange", price: 200 },
+{ pname: "Grape", price: 300 },
+]
+undefined
+products.find( item => item.price == 100)
+{pname: "Apple", price: 100}
+products.findIndex( item => item.price == 100)
+0
+products.findIndex( item => item.price == 200)
+1
+products
+(3) [{…}, {…}, {…}]0: {pname: "Apple", price: 100}1: {pname: "Orange", price: 200}2: {pname: "Grape", price: 300}length: 3__proto__: Array(0)
+products[products.findIndex( item => item.price == 200)]
+{pname: "Orange", price: 200}
+products[1]
+{pname: "Orange", price: 200}

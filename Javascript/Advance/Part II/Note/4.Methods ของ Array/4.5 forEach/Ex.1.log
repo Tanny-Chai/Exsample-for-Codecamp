@@ -1,0 +1,33 @@
+let allBody = ["head", "shoulder", "knee", "toe"]
+undefined
+allBody.forEach(function(x) {
+    console.log(x)
+})
+VM1259:2 head
+VM1259:2 shoulder
+VM1259:2 knee
+VM1259:2 toe
+undefined
+//ดูใน Javascript Info ประกอบ
+undefined
+for(x of allBody)
+    console.log(x)
+VM1426:2 head
+VM1426:2 shoulder
+VM1426:2 knee
+VM1426:2 toe
+undefined
+//เทียบกันดู
+undefined
+allBody.forEach(function(x, i) {
+    console.log(`index : ${i} have ${x}`)
+})
+VM1515:2 index : 0 have head
+VM1515:2 index : 1 have shoulder
+VM1515:2 index : 2 have knee
+VM1515:2 index : 3 have toe
+undefined
+// arr.forEach(function(item, index, array) {
+//   // ... do something with item
+// });
+undefined

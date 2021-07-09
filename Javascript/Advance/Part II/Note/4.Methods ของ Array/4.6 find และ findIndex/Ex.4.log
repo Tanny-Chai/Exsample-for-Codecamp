@@ -1,0 +1,30 @@
+let products = [
+{ pname: "Apple", price: 100 }, 
+{ pname: "Orange", price: 200 },
+{ pname: "Grape", price: 300 },
+]
+undefined
+products.find( item => item.price > 200 )
+{pname: "Grape", price: 300}
+products.find( item => item.price > 100 )
+{pname: "Orange", price: 200}
+//โปรแกรมมันเอาเงื่อนไข return ตัวแรกที่เจอ
+undefined
+//ตัวอย่าง
+undefined
+const array1 = [5, 12, 8, 130, 44];
+
+const found = array1.find(element => element > 10);
+
+console.log(found);
+VM1960:5 12
+undefined
+
+let array2 = [5, 1, 8, 130, 44];
+
+let found2 = array2.find(element => element > 10);
+
+console.log(found2);
+VM2034:5 130
+undefined
+ 

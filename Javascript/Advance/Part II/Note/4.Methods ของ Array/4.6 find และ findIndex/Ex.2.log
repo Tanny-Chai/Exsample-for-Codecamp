@@ -1,0 +1,27 @@
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+undefined
+users.find( (x) => {
+    return (x.id ===2)
+})
+{id: 2, name: "Pete"}
+users.find( (x) => (x.id ===2)
+) // ละปีกกา เพราะมีแค่คำสั่งเดียว รวมทั้งคำว่า return ก็ไม่จำเป็นต้องมีในคำสั่งเดียว
+{id: 2, name: "Pete"}
+users.find( (x) => (x.id ===2) // แบบสั้นสุด
+VM1099:1 Uncaught SyntaxError: missing ) after argument list
+users.find( (x) => (x.id ===2) ) // แบบสั้นสุด
+{id: 2, name: "Pete"}
+users.find( (x) => {
+    return (x.id ===2)
+})
+// แบบสั้นกลางๆ
+{id: 2, name: "Pete"}
+users.find( function(x)  {
+    return (x.id ===2)
+})
+// แบบเต็มๆ
+{id: 2, name: "Pete"}
