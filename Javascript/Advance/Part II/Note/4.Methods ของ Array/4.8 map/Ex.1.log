@@ -1,0 +1,18 @@
+let fruits = ["Apple", "Orange", "Plum"];
+undefined
+let m = []
+undefined
+fruits.forEach( (x,i) => m[i] = x )
+undefined
+m
+(3) ["Apple", "Orange", "Plum"]
+fruits.forEach( (x,i) => m[i] = x.length )
+undefined
+m
+(3) [5, 6, 4]
+//ความยาวของแต่ละคำใน Array
+undefined
+fruits.map( x => x.length )
+(3) [5, 6, 4]
+//ได้ Array ของสิ่งที่ต้องการออกมาทันที
+undefined
