@@ -1,0 +1,11 @@
+let products = [
+{ pname: "Apple", price: 100 }, 
+{ pname: "Orange", price: 200 },
+{ pname: "Grape", price: 300 },
+]
+undefined
+products.filter( x => x.price > 100 )
+(2) [{…}, {…}]
+
+products.filter( function(x) {return x.price > 100} )
+(2) [{…}, {…}]

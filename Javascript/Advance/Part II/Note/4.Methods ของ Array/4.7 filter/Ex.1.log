@@ -1,0 +1,26 @@
+let words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+let result = words.filter(word => word.length > 6); //คำภายใน array ที่มีจำนวนตัวอักษรเกิน 6
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+VM2419:5 (3) ["exuberant", "destruction", "present"]
+undefined
+let words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present', 'Thai', 'Thailand'];
+
+let result = words.filter(word => word.length > 6); //คำภายใน array ที่มีจำนวนตัวอักษรเกิน 6
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+VM2446:5 (4) ["exuberant", "destruction", "present", "Thailand"]
+undefined
+
+undefined
+let words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present', 'Thai', 'Thailand'];
+
+let result = words.filter(word => word.length < 6); //คำภายใน array ที่มีจำนวนตัวอักษรน้อยกว่า 6
+
+console.log(result);
+// expected output: Array ["exuberant", "destruction", "present"]
+VM2469:5 (4) ["spray", "limit", "elite", "Thai"]
+undefined
