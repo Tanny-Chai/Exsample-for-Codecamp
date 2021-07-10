@@ -1,0 +1,16 @@
+[5, 10, 3, 2, 9].sort()
+(5) [10, 2, 3, 5, 9]0: 101: 22: 33: 54: 9length: 5__proto__: Array(0)
+let fruits = ["Apple", "Orange", "Plum"];
+undefined
+fruits.sort()
+(3) ["Apple", "Orange", "Plum"]
+fruits.push("Papaya")
+4
+fruits.sort()
+(4) ["Apple", "Orange", "Papaya", "Plum"]
+fruits
+(4) ["Apple", "Orange", "Papaya", "Plum"]
+// มองเป็น 50, 10, 30, 20, 90
+undefined
+//จึงถูกเรียงเป็น 10, 20, 30, 50, 90
+undefined
