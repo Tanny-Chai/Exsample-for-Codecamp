@@ -1,0 +1,63 @@
+let nm = [5 ,7, -4, -2, 9 ,-8 ,10, 8]
+undefined
+function compare(a, b) {
+    return (a > b)? -1 : (a < b)? 1 : 0
+}
+undefined
+nm.sort(compare)
+(8) [10, 9, 8, 7, 5, -2, -4, -8]
+//เรียงจากมากไปน้อย
+undefined
+function compare(a, b) {
+    return a - b
+}
+undefined
+let arr = [7, 8, 9, 2, 3, 10, 20, 1, 25]
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+function compare(a, b) {
+    return (a > b)? -5 : (a < b)? 7 : 0
+}
+
+undefined
+arr.sort(compare)
+(9) [25, 20, 10, 9, 8, 7, 3, 2, 1]
+//สรุป จะเป็นเลขอะไรก็ได้ ถ้าเป็นจำนวนลบ ถือเป็น -1 หมด ถ้าเป็นจำนวนก็ถือเป็น 1 หมดเช่นกัน
+undefined
+function compare(a, b) {
+    return (a > b)? 15 : (a < b)? -2200 : 0
+}
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+function compare(a, b) {
+    return (a > b)? 15 : (a < b)? 16 : 0
+}
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+function compare(a, b) {
+    return (a > b)? 15 : (a < b)? 14 : 0
+}
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+function compare(a, b) {
+    return a-b
+}
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+function compare(a, b) {
+    return a+b
+}
+undefined
+arr.sort(compare)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+// ที่ใช้ a-b แทนคำสั่ง if else ทั้ง 3 เงื่อนไข ได้ เป็นเพราะว่า
+// ถ้า a < b แล้ว a - b จะได้ผลลัพธ์เป็นค่าลบ
+// ถ้า a = b แล้ว a - b จะได้เท่ากับ 0
+// ถ้า a > b แล้ว a - b จะได้ผลลัพธ์เป็นค่าบวก
+
+undefined

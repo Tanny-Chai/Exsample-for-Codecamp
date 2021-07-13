@@ -1,0 +1,11 @@
+let arr = [7, 8, 9, 2, 3, 10, 20, 1, 25]
+undefined
+arr.sort(function(a, b) { return a - b; })
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+arr.sort(function(a, b) { return b - a; })
+(9) [25, 20, 10, 9, 8, 7, 3, 2, 1]
+
+arr.sort( (a, b) =>  a - b )
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+arr.sort( (a, b) =>  b - a )
+(9) [25, 20, 10, 9, 8, 7, 3, 2, 1]

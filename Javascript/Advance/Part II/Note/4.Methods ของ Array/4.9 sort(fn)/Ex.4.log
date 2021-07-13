@@ -1,0 +1,34 @@
+let nm = [5 ,7, -4, -2, 9 ,-8 ,10, 8]
+undefined
+arr.sort(cpNum)
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+nm.sort(cpNum)
+(8) [-8, -4, -2, 5, 7, 8, 9, 10]
+//จะ sort แบบ ไม่สนใจเครื่องหมายอย่างไร
+undefined
+Math.abs(-8)
+8
+function cpNumA(a, b) {
+    let aa = Math.abs(a)
+    let bb = Math.abs(b)
+    return (aa > bb)? 1 : (aa < bb)? 1 : 0
+}
+undefined
+nm.sort(cpNumA)
+(8) [-8, -4, -2, 5, 7, 8, 9, 10]
+function cpNumA(a, b) {
+    let aa = Math.abs(a)
+    let bb = Math.abs(b)
+    return (aa > bb)? 1 : (aa < bb)? -1 : 0
+}
+undefined
+nm.sort(cpNumA)
+(8) [-2, -4, 5, 7, -8, 8, 9, 10]
+//เปรียบเทียบ 3 แบบ
+undefined
+nm.sort()
+(8) [-2, -4, -8, 10, 5, 7, 8, 9]
+nm.sort(cpNum)
+(8) [-8, -4, -2, 5, 7, 8, 9, 10]
+nm.sort(cpNumA)
+(8) [-2, -4, 5, 7, -8, 8, 9, 10]
