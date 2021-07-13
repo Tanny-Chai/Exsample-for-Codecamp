@@ -1,0 +1,19 @@
+let arr = [7, 8, 9, 2, 3, 10, 20, 1, 25]
+undefined
+arr.sort()
+(9) [1, 10, 2, 20, 25, 3, 7, 8, 9]
+arr
+(9) [1, 10, 2, 20, 25, 3, 7, 8, 9]
+//ทำอย่างไรให้เรียงจากน้อยไปหามากจริงๆ
+undefined
+function compare(a, b) {
+  if (a > b) return 1; // if the first value is greater than the second
+  if (a == b) return 0; // if values are equal
+  if (a < b) return -1; // if the first value is less than the second
+}
+undefined
+arr.sort(compare) // ใส่ชื่อฟังก์ชัน
+(9) [1, 2, 3, 7, 8, 9, 10, 20, 25]
+//เรียงจากน้อยไปหามากได้ถูกต้องแล้ว
+undefined
+
