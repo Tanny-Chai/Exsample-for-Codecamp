@@ -1,0 +1,14 @@
+let thw = ["เด็ก", "อก", "เสมา", "สะดม"]
+undefined
+thw.sort()
+(4) ["สะดม", "อก", "เด็ก", "เสมา"]
+//เกิดปัญหา ส. เหมือนกัน แต่อยู่คนละตำแหน่งกัน
+undefined
+
+thw.sort( function(a, b) {
+    return a.localeCompare(b)
+})
+(4) ["เด็ก", "สะดม", "เสมา", "อก"]
+
+thw.sort( (a, b) => a.localeCompare(b) )
+(4) ["เด็ก", "สะดม", "เสมา", "อก"]
