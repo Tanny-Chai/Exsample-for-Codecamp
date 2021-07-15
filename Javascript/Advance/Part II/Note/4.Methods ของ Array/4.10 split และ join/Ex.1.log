@@ -1,0 +1,26 @@
+let fruits = ["Apple", "Orange", "Grape", "Plum"];
+undefined
+fruits.reverse
+ƒ reverse() { [native code] }
+fruits.reverse()
+(4) ["Plum", "Grape", "Orange", "Apple"]
+
+(anonymous) @ VM118:1
+function cpText(a, b) {
+    let aa = a.toUpperCase()
+    let bb = b.toUpperCase()
+    return (aa > bb)? 1: (aa < bb)? -1: 0
+}
+undefined
+fruits.sort(cpText)
+(4) ["Apple", "Grape", "Orange", "Plum"]
+fruits.sort(cpText).reverse()
+(4) ["Plum", "Orange", "Grape", "Apple"]
+//แทนการแก้ 1 กับ -1 ในฟังก์ชัน
+undefined
+let thw = ["เด็ก", "อก", "เสมา", "สะดม"]
+undefined
+thw.reverse()
+(4) ["สะดม", "เสมา", "อก", "เด็ก"]
+thw.sort( (a, b) => a.localeCompare(b) ).reverse()
+(4) ["อก", "เสมา", "สะดม", "เด็ก"]
