@@ -1,0 +1,24 @@
+let name = 'Bilbo, Gandalf, Nazgul, Saruman'
+undefined
+name.toLowerCase()
+"bilbo, gandalf, nazgul, saruman"
+name
+"Bilbo, Gandalf, Nazgul, Saruman"
+let arr = name.split(",")
+undefined
+arr
+(4) ["Bilbo", " Gandalf", " Nazgul", " Saruman"]0: "Bilbo"1: " Gandalf"2: " Nazgul"3: " Saruman"length: 4__proto__: Array(0)
+let arr = name.split(", ")
+undefined
+arr
+(4) ["Bilbo", "Gandalf", "Nazgul", "Saruman"]
+arr.map( x => `To ${x.toLowerCase()}`)
+(4) ["To bilbo", "To gandalf", "To nazgul", "To saruman"]
+arr
+(4) ["Bilbo", "Gandalf", "Nazgul", "Saruman"]
+//ไม่รองรับ
+undefined
+let rs = arr.map( x => `To ${x.toLowerCase()}`)
+undefined
+rs
+(4) ["To bilbo", "To gandalf", "To nazgul", "To saruman"]

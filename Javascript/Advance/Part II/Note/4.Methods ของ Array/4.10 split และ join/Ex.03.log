@@ -1,0 +1,10 @@
+let name = 'Bilbo, Gandalf, Nazgul, Saruman'
+undefined
+name.split(", ")
+(4) ["Bilbo", "Gandalf", "Nazgul", "Saruman"]
+name.split(", ", 2)
+(2) ["Bilbo", "Gandalf"]
+name.split(", ", 3)
+(3) ["Bilbo", "Gandalf", "Nazgul"]
+//เลือกได้ว่าจะใช้ array กี่ตัว
+undefined

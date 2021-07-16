@@ -1,0 +1,17 @@
+let rs = ["To bilbo", "To gandalf", "To nazgul", "To saruman"]
+undefined
+rs[0]
+"To bilbo"
+rs[2]
+"To nazgul"
+//เชื่อม array ให้เป็น string ทำยังไง
+undefined
+rs.join("-")
+"To bilbo-To gandalf-To nazgul-To saruman"
+rs.join(", ")
+"To bilbo, To gandalf, To nazgul, To saruman"
+
+let rss = rs.join("_")
+undefined
+rss
+"To bilbo_To gandalf_To nazgul_To saruman"
