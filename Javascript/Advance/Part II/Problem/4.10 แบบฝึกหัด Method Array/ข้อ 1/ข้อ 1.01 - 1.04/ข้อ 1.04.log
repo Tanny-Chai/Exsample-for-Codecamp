@@ -1,0 +1,6 @@
+let array1 = ["apple", "banana", "orange"]
+undefined
+let array2 = array1.map( x => x.toUpperCase() )
+undefined
+array2
+(3) ["APPLE", "BANANA", "ORANGE"]

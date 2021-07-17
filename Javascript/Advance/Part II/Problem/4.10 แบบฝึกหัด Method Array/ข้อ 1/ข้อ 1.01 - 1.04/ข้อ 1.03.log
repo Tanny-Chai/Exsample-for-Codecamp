@@ -1,0 +1,6 @@
+let array1 = [1, "1", 2, {}]
+undefined
+let array2 = array1.map( x => typeof(x) )
+undefined
+array2
+(4) ["number", "string", "number", "object"]

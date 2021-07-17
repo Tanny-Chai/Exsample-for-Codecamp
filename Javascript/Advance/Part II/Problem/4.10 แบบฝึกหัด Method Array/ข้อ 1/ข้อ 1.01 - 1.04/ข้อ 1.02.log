@@ -1,0 +1,6 @@
+let array1 = [1, 2, 3, 4]
+undefined
+let array2 = array1.map( x => String(x) )
+undefined
+array2
+(4) ["1", "2", "3", "4"]

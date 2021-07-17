@@ -1,0 +1,6 @@
+let array1 = [1, 2, 30, 400]
+undefined
+let array2 = array1.map( x => x*2 )
+undefined
+array2
+(4) [2, 4, 60, 800]
