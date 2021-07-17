@@ -1,0 +1,10 @@
+let array1 = [
+      { name: "apple", surname: "London" },
+      { name: "banana", surname: "Bangkok" },
+      { name: "watermelon", surname: "Singapore" },
+    ]
+undefined
+let array2 = array1.map( x => x.name + " " + x.surname )
+undefined
+array2
+(3) ["apple London", "banana Bangkok", "watermelon Singapore"]
